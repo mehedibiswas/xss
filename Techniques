@@ -6,6 +6,7 @@ blocked.
 5.If special javascript character is automatically escaped,use escaped character "\" to escape the automatcally set escaped character.
 6.Try to use custom-tag if regular tag is blocked.
 7.Try to add attribute like mouse event(onclick,mouseup,mousedown),keyboard(accesskey), onload,onerror etc.
+8.If we find any xss but we cannot trigger it then we can take help of "accesskey" attribute to trigger our payloads.
 
 
 *** make sure the your payloads is url encoded if it pass into url.Tr
