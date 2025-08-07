@@ -1,0 +1,11 @@
+1.First try to look where the input is reflected.Try to break the javascript with single quote,angle bracket,double quote etc and add just your payloads to execute.
+2.If most of the payloads and attribute block by the developers than try to brute force the <tag> and attributes one by one to find which tag and attribute is not
+blocked.
+3.To execute javascript inside html attributes use "javascript:alert()" this payloads.
+4.Try to encode the payloads to execute.
+5.If special javascript character is automatically escaped,use escaped character "\" to escape the automatcally set escaped character.
+6.Try to use custom-tag if regular tag is blocked.
+7.Try to add attribute like mouse event(onclick,mouseup,mousedown),keyboard(accesskey), onload,onerror etc.
+
+
+*** make sure the your payloads is url encoded if it pass into url.Tr
