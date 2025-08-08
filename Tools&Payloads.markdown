@@ -25,7 +25,7 @@ the it will autofill the username and password.It fetch the request when length 
 request is triggered..Mode no-cors mean if the domain is changed (burb collaborator) still it didn't block the request. As a response it give username and 
 password separeted by colon.
 
-
+##### xss payload as csrf 
 <script>
 var req = new XMLHttpRequest();
 req.onload = handleResponse;
